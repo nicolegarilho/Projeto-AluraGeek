@@ -1,0 +1,122 @@
+<!-- Estrutura HTML da Aplicação -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek Chalenge</title>
+   
+</head>
+
+ <!-- Menu -->
+
+<body>
+
+    <script src="js/script.js"></script>
+
+
+    <header class="header">
+        <h1><span>❤️❤️❤️</span> AluraGeek</h1>
+    </header>
+
+<!-- Seção Produtos -->
+
+    <main class="container">
+        <section class="produtos">
+            <h2>MEUS PRODUTOS:</h2>
+            
+            <div id="produtos-container" class="produtos-lista">
+                <li class="caixa_produto">
+                    <img class="imagem_produto" src="assets/wader.png" alt="wader">
+                    <div>
+                        <h3 class="formacao__nome">Boneco Wader</h3>
+                        <p class="formacao__detalhe">R$ 20,00</p>
+                        <img class="delete" src="assets/delete.png" alt="deletar">
+                    </div>
+                    </li>
+
+                    <li class="caixa_produto">
+                        <img class="imagem_produto" src="assets/deadpool.jpg" alt="deadpool">
+                        <div>
+                            <h3 class="formacao__nome">Boneco Deadpool</h3>
+                            <p class="formacao__detalhe">R$ 20,00</p>
+                            <img class="delete" src="assets/delete.png" alt="deletar">
+                        </div>
+                        </li>
+
+                        <li class="caixa_produto">
+                            <img class="imagem_produto" src="assets/batman.png" alt="deadpool">
+                            <div>
+                                <h3 class="formacao__nome">Boneco Batman</h3>
+                                <p class="formacao__detalhe">R$ 20,00</p>
+                                <img class="delete" src="assets/delete.png" alt="deletar">
+                            </div>
+                            </li>
+
+                            <li class="caixa_produto">
+                                <img class="imagem_produto" src="assets/mjack.jpg" alt="deadpool">
+                                <div>
+                                    <h3 class="formacao__nome">Boneco Michael Jackson</h3>
+                                    <p class="formacao__detalhe">R$ 20,00</p>
+                                    <img class="delete" src="assets/delete.png" alt="deletar">
+                                </div>
+                                </li>
+
+                                <li class="caixa_produto">
+                                    <img class="imagem_produto" src="assets/mmaravilha.png" alt="deadpool">
+                                    <div>
+                                        <h3 class="formacao__nome">Boneco Mulher Maravilha</h3>
+                                        <p class="formacao__detalhe">R$ 20,00</p>
+                                        <img class="delete" src="assets/delete.png" alt="deletar">
+                                    </div>
+                                    </li>
+
+                                    <li class="caixa_produto">
+                                        <img class="imagem_produto" src="assets/sasuke.jpg" alt="deadpool">
+                                        <div>
+                                            <h3 class="formacao__nome">Boneco Sasuke</h3>
+                                            <p class="formacao__detalhe">R$ 20,00</p>
+                                            <img class="delete" src="assets/delete.png" alt="deletar">
+                                        </div>
+                                        </li>
+
+                                        <li class="caixa_produto">
+                                            <img class="imagem_produto" src="assets/superman.png" alt="deadpool">
+                                            <div>
+                                                <h3 class="formacao__nome">Boneco Superman</h3>
+                                                <p class="formacao__detalhe">R$ 20,00</p>
+                                                <img class="delete" src="assets/delete.png" alt="deletar">
+                                            </div>
+                                            </li>
+
+            </div>
+        
+
+        </section>
+
+        <!-- Adicionar Produtos -->
+
+        <section class="adicionar-produto">
+            <h2>ADICIONAR PRODUTO:</h2>
+            <form id="form-adicionar-produto">
+                <input type="text" id="produto-nome" placeholder="nome...">
+                <input type="number" id="produto-valor" placeholder="valor...">
+                <input type="text" id="produto-imagem" placeholder="imagem...">
+                <button type="submit" class="btn salvar">Guardar</button>
+                <button type="reset" class="btn limpar">Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Seção Final -->
+
+    <footer class="footer">
+        <p>AluraGeek</p>
+        <p>DESENVOLVIDO POR NICOLE GARILHO</p>
+        <p>-2025-</p>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

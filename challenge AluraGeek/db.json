@@ -1,0 +1,12 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Boneco Wader",
+        "valor": 60.00,
+        "imagem": "assets/wader.png",
+        "descricao": "Boneco de 12cm"
+      }
+    ]
+  }
+  
